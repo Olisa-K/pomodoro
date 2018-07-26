@@ -1,0 +1,48 @@
+.block {
+  width: 100%;
+  height: 200px;
+  padding-top: 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  background: beige;
+}
+
+.block1 {
+  width: 450px;
+  height: 170px;
+  background: lightsalmon;
+  padding: 10px;
+  border: groove 6px red;
+  float: left;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.menu {
+  width: 100%;
+  height: 100px;
+  padding-left: 220px;
+  padding-right: 200px;
+  background: beige;
+  border: 25px solid transparent;
+  border-image-source: url("../../images/border1.png");
+  border-image-repeat: repeat;
+  border-image-slice: 90;
+  border-image-width: 40px 0px;
+}
+
+.header {
+  text-align: center;
+  height: 150px;
+}
+
+.button {
+  display: inline;
+  margin-left: 10px;
+}
